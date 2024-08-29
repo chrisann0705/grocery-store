@@ -834,7 +834,7 @@ body {
     align-items:center;
     right: 190px;
     object-fit:fill;
-    margin-right:2000px;
+    margin-right:2050px;
 
 
 }
@@ -896,11 +896,20 @@ body {
 #icon-container {
     display: flex;
     justify-content: center; /* Center horizontally */
-    align-items: center;   
+    align-items: center;  
+    margin-right:200px; 
 }
 
 #icon-container img {
+    padding: 100px;
     max-width: 100%;
     height: auto;
     margin-right:-200px;
 }
+#footer{
+    padding:100px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;   
+}
+
